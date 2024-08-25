@@ -2,7 +2,7 @@ from pymongo import MongoClient
 import pandas as pd
 pd.set_option("display.max_columns", None)
 
-client = MongoClient("mongodb+srv://arunramarajan97:arun1997@myserver.ci25y6i.mongodb.net/")
+client = MongoClient("mongodb_link")
 
 db = client['sample_airbnb']
 col = db["listingsAndReviews"]
